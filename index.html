@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website
+    </title>
+    <link id="theme-link" rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header"> 
+        <a href="#" class="logo "> <span> Nmar Yassir</span></a>
+        <ul class = "nav-links"> 
+            <li> <a href="#about"> About</a>
+            </li>
+            <li> <a href="#interests"> Projects</a>
+            </li>
+
+             <li> <a href="#tech"> Skills </a>
+            </li>
+
+            <li> <a href="#contact"> contact </a>
+            </li>
+        </ul>
+
+<button id="theme-toggle">Theme</button>
+    </header>
+
+        
+    <section id="about" class="about"> 
+        <div class=" Aboutbox">
+           
+            <img src="chillguy.png" alt="user">
+            <div class="infobox">
+                 <div class="text">
+                     <h1>  Nmar Yassir </h1>
+                     <h3> Etudiant 3IIR19 </h1>
+                 </div>
+                 <div class="cvcontactbtn"> 
+                    <div class="btn" id="download-cv">Télécharger CV</div>
+                    <div class="btn" id="contact-linkedin">Contact</div>
+                    <div class="btn" id="github">Projet</div>
+                </div>
+                
+            <div class="socials">
+                <i class="fa-solid fa-file"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <i class="fa-solid fa-laptop"></i>
+                    <p>
+                        Passionné par l’innovation technologique.
+                    </p>
+                </div>
+            </div>
+          </div>
+    </section>
+    
+    <section id="interests" class="interests"> 
+    <h1 class="Intereststitre "> Latest Projects </h1>
+    <div class="Interests-grid">
+        <div class="interestes-card">
+            <i class="fa-solid fa-train"></i>
+            <h3> Gestion des Trains </h3>
+            <button id="demo1"> DEMO</button>
+        </div>
+        <div class="interestes-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3> Gestion des Voyages</h3>
+            <button id="demo2"> DEMO</button>
+        </div>
+        <div class="interestes-card">
+            <i class="fa-solid fa-lock"></i>
+            <h3> Password Quality </h3>
+            <button id="demo3"> DEMO</button>
+        </div>
+    </div>
+    <section id="tech" class="tech"> 
+        <h1 class="techtitre">Skills / Tech Stack</h1>
+        <div class="tech-grid">
+            <div class="tech-card">
+                <i class="fa-brands fa-laravel"></i>
+                <h3>Laravel</h3>
+            </div>
+            <div class="tech-card">
+                <i class="fa-brands fa-php"></i>
+                <h3>PHP</h3>
+            </div>
+            <div class="tech-card"> 
+                <i class="fa-solid fa-c"></i>
+                <h3>C/C++</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-solid fa-server"></i>  
+                <h3>Backend</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="tech-card">  
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+        </div>
+    </section>
+    <section id=" certif" class="certif"> 
+        <h1 class="certiftitre">Certificats</h1>
+        <div class="certif-grid">
+            <div class="certif-card">
+                <img src="js.jpg" alt="js">
+                <button id="c1"> Voir certificat</button>
+            </div>
+            <div class="certif-card">
+                <img src="unix.jpg" alt="unix">
+                <button id="c2"> Voir certificat</button>
+            </div>
+            <div class="certif-card">
+                <img src="c++.png" alt="c++">
+                <button id="c3"> Voir certificat</button>
+            </div>
+           </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="inputbox">
+            <h2 class="s">Contact Me</h2>
+            <form id="contactForm">
+                <div class="input">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input">
+                    <input type="email" name="email" placeholder="test@test.com" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <i class="fa-solid fa-comment"></i>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#interests">Projects</a>
+            </li>
+            <li>
+                <a href="#tech">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright"> All Rights reserved / Nmar Yassir </p>
+    </footer>
+
+    
+
+    <script src="script.js"> </script>
+    
+</body>
+</html>
